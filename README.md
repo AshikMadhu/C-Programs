@@ -1,61 +1,64 @@
-💻 C Programming Repository
+# 💻 C Programming Repository
 
-A curated collection of C programs designed to demonstrate core programming concepts using clear, concise, and beginner-friendly implementations.
+A curated collection of **C programs** designed to demonstrate **core programming concepts** using clear, concise, and beginner-friendly implementations.
 
-📌 Overview
+---
 
-This repository serves as a growing archive of C language programs created for:
+## 📌 Overview
 
-Academic learning
+This repository serves as a growing archive of **C language programs** created for:
 
-Programming practice
+- Academic learning  
+- Programming practice  
+- Laboratory exercises  
+- Concept revision  
 
-Laboratory exercises
+Programs are written with an emphasis on **simplicity, readability, and correctness**.
 
-Concept revision
+---
 
-Programs are written with an emphasis on simplicity, readability, and correctness.
+## 🧩 Topics Covered
 
-🧩 Topics Covered
+- Basic Input / Output  
+- Conditional Statements  
+- Ternary Operator  
+- Looping Constructs  
+- Number-based Programs  
+- Fundamental Problem Solving  
+- More programs will be added over time  
 
-Basic Input / Output
+---
 
-Conditional Statements
+## 📝 Sample Snippet
 
-Ternary Operator
+**Largest of Two Numbers using Ternary Operator**
 
-Looping Constructs
-
-Number-based Programs
-
-Fundamental Problem Solving
-
-More programs will be added over time
-
-📝 Sample Snippet
-
-Largest of Two Numbers using Ternary Operator
-
+```c
 largest = (a > b) ? a : b;
+```
 
-🎯 Purpose
+---
 
-Build a structured collection of C programs
+## 🎯 Purpose
 
-Strengthen understanding of fundamental C concepts
+- Build a structured collection of C programs  
+- Strengthen understanding of fundamental C concepts  
+- Provide a clean reference for students and beginners  
 
-Provide a clean reference for students and beginners
+---
 
-🚀 Future Updates
+## 🚀 Future Updates
 
-Additional C programs
+- Additional C programs  
+- Improved logic variations  
+- Expanded problem sets  
 
-Improved logic variations
+---
 
-Expanded problem sets
+## 📂 Usage
 
-📂 Usage
+All programs can be compiled and executed using any standard C compiler such as **GCC**, **Dev-C++**, or **Code::Blocks**.
 
-All programs can be compiled and executed using any standard C compiler such as GCC, Dev-C++, or Code::Blocks.
+---
 
-⭐ Feel free to explore, learn, and build upon these programs.
+⭐ *Feel free to explore, learn, and build upon these programs.*
