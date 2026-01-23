@@ -1,23 +1,23 @@
 #include <stdio.h>
 
 int main() {
-    int n, temp, sum = 0, digit;
+    int num, temp, rem, sum;
 
-    printf("Enter a number: ");
-    scanf("%d", &n);
+    printf("Armstrong numbers between 1 and 1000 are:\n");
 
-    temp = n;
+    for (num = 1; num <= 1000; num++) {
+        temp = num;
+        sum = 0;
 
-    while (n > 0) {
-        digit = n % 10;
-        sum += digit * digit * digit;
-        n = n / 10;
+        while (temp > 0) {
+            rem = temp % 10;
+            sum = sum + (rem * rem * rem);
+            temp = temp / 10;
+        }
+
+        if (sum == num)
+            printf("%d ", num);
     }
-
-    if (sum == temp)
-        printf("Armstrong number");
-    else
-        printf("Not an Armstrong number");
 
     return 0;
 }
