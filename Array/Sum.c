@@ -1,14 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    int a[5], i, sum = 0;
+    int n, i, sum = 0;
 
-    printf("Enter 5 elements:\n");
-    for (i = 0; i < 5; i++) {
+    printf("Enter array size: ");
+    scanf("%d", &n);
+    int a[n];
+    printf("Enter elements:\n");
+    for (i = 0; i < n; i++) {
         scanf("%d", &a[i]);
-        sum += a[i];
+        sum = sum + a[i];
     }
 
     printf("Sum = %d", sum);
+
     return 0;
 }
+
