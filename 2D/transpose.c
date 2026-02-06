@@ -2,9 +2,9 @@
 int main() {
     int m, n, i, j;
 
-    printf("Enter number of rows (m): ");
+    printf("Enter number of rows: ");
     scanf("%d", &m);
-    printf("Enter number of columns (n): ");
+    printf("Enter number of columns: ");
     scanf("%d", &n);
 
     int a[m][n], t[n][m];
@@ -42,3 +42,4 @@ int main() {
 
     return 0;
 }
+
