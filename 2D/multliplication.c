@@ -55,19 +55,19 @@ int main() {
     for (i = 0; i < m; i++) {
 
         for (j = 0; j < n; j++) {
-            printf("%4d", a[i][j]);
+            printf("% d", a[i][j]);
         }
 
         printf("   *   ");
 
         for (j = 0; j < q; j++) {
-            printf("%4d", b[i][j]);
+            printf("% d", b[i][j]);
         }
 
         printf("   =   ");
 
         for (j = 0; j < q; j++) {
-            printf("%4d", c[i][j]);
+            printf("% d", c[i][j]);
         }
 
         printf("\n");
@@ -75,3 +75,4 @@ int main() {
 
     return 0;
 }
+
