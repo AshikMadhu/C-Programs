@@ -4,17 +4,18 @@ int main() {
     int n;
     printf("Enter size of strings: ");
     scanf("%d", &n);
+    getchar();
     char a[n], b[n];
     printf("Enter first string: ");
-    scanf("%s", a);
+    fgets(a, n, stdin);
+
     printf("Enter second string: ");
-    scanf("%s", b);
+    fgets(b, n, stdin);
 
     if (strcmp(a, b) == 0)
-        printf("Strings are equal");
+        printf("Strings are equal\n");
     else
-        printf("Strings are not equal");
+        printf("Strings are not equal\n");
 
     return 0;
 }
-
