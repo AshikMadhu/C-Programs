@@ -3,13 +3,13 @@ int main() {
     int n, i = 0, flag = 0;
     printf("Enter size of strings: ");
     scanf("%d", &n);
-    char str1[n], str2[n];
+    char a[n], b[n];
     printf("Enter first string: ");
-    scanf("%s", str1);
+    scanf("%s", a);
     printf("Enter second string: ");
-    scanf("%s", str2);
-    while (str1[i] != '\0' || str2[i] != '\0') {
-        if (str1[i] != str2[i]) {
+    scanf("%s", b);
+    while (a[i] != '\0' || b[i] != '\0') {
+        if (a[i] != b[i]) {
             flag = 1;
             break;
         }
@@ -25,3 +25,4 @@ int main() {
 
     return 0;
 }
+
