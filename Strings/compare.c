@@ -5,9 +5,9 @@ int main() {
     scanf("%d", &n);
     char a[n], b[n];
     printf("Enter first string: ");
-    scanf("%s", a);
+    fgets(a,sizeof(a),stdin);
     printf("Enter second string: ");
-    scanf("%s", b);
+    fgets(b,sizeof(b),stdin);
     while (a[i] != '\0' || b[i] != '\0') {
         if (a[i] != b[i]) {
             flag = 1;
@@ -25,4 +25,5 @@ int main() {
 
     return 0;
 }
+
 
