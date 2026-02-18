@@ -1,4 +1,4 @@
-#include <stdio.h>
+
 
 int main() {
     int num, temp, rem, sum;
@@ -21,3 +21,4 @@ int main() {
 
     return 0;
 }
+
